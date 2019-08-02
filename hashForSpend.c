@@ -19,6 +19,7 @@ function name: 	getHashIndex
 description: 	Calculates the hash index for every PAN
 arguments: 	pan number whose hash index is required
 ******************************************************/
+//changed
 unsigned long int getHashIndex(char panNo[10]){
 	unsigned long int index=0;
 	int i;
